@@ -15,7 +15,7 @@ def fitModel(model, data):
   callbacks_list = [checkpoint]
 
 
-  model.fit(data['input'], data['output'],epochs=2,batch_size=100, callbacks=callbacks_list)
+  model.fit(data['input'], data['output'], epochs=2,batch_size=100, callbacks=callbacks_list)
     
 if __name__ == "__main__":
     filename = sys.argv[1];
